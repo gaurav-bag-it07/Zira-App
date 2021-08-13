@@ -21,7 +21,7 @@ function showModal(e) {
         let modal  = document.createElement("div");
         modal.classList.add("modal");
         modal.innerHTML = `<div class="task-to-be-added" spellcheck="false" data-type="false" contenteditable="true">
-                        <span class="placeholder">Enter your text here</span>
+                        <span class="placeholder">Enter your text here and press Enter</span>
                     </div>
                     <div class="priority-list">
                         <div class="pink-modal-filter modal-filter active"></div>
